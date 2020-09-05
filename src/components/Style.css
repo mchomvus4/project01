@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+html,
+body{
+    /* background-color: #9f9696; */
+    color: #555;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 25px;
+    text-rendering: optimizeLegibility;
+    padding: 20px;
+   
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto ;
+    
+}
+.main-nav-1{
+    margin-top: -40px;
+   background-color:#c2c2a3;
+    position: fixed;
+    width: 93%;
+}
+
+.logo{
+    
+    float: left;
+    width: 80px;
+    left: 80px;
+    margin-top: 30px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+     margin-top: 40px; 
+     
+}
+.right-nav a{
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 120%;
+    margin-top: 40px;
+    
+    
+}
+
+.right-nav a:hover,
+.right-nav a:active{
+    border-bottom: 2px solid #e67e22;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    padding-right: 50px;
+   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 120%;
+   
+}
+
+ .main-nav li{
+        margin-left: 90px;
+    }
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+
+}
+
+p.bitcoin{
+    font-size: 40px;
+    font-weight: bold;  
+    margin-top: 90px;;
+}
+.image-one{
+    height: 100%;
+    width: 100%;
+}
+
+.biticon{
+    width: 50px;
+    height: 50px;
+   margin-bottom: -10px;
+}
+
+.bitcoin-1{
+    font-size: 40px;
+    font-weight: 800;
+    border-bottom: 4px solid #e67e22;
+}
+
+.btn-1{
+    background-color: #e67e22;
+    color: #fff;
+    width: 130px;
+    margin-top: 50px;  
+    text-align: center; 
+    padding: 5px;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px; 
+}
+.cost{
+    float: right;
+   font-size: 15px;
+   font-weight: 100;
+   
+   
+    
+}
+.cost-figure{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.section-two-bitcoin{
+    border-bottom: 2px solid #e67e22;
+    width: 90px;
+}
+
+.fraud{
+    background-color: #ff6600;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.fraud-page1{
+    margin-top: 50px;
+}
+.fraud-page2{
+    margin-top: 70px;
+}
+.transactions{
+    margin-left: 50px;
+}
+
+.section-two,
+.section-three{
+    background-color: #eff5f5;
+}
+
+.footer{
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+
+    
+}
+
+.footer-row{
+    padding-top:50px;
+    background-color: #555;
+}
+
+.withdraw{
+    margin-left: 50px;
+}
+
+.peer{
+    margin-left: 30px;
+}
+
+.peer-01{
+    opacity: 0.3;
+    margin-right: 20px;
+}
+.barline-01{
+   border-left: 2px solid #e67e22;
+   height: 300px;
+  
+}
+
+.dismiss{
+    background-color: #e67e22;
+    border: none;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+input{
+    width: 350px;
+    height: 30px;
+    background-color:#fff;
+    color: #fff;
+    text-align: center;
+    border-color: #e67e22;
+}
+.withdraw-03{
+    opacity: 0.3;
+    margin-right: 20px;
+}
