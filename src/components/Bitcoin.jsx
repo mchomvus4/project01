@@ -75,8 +75,9 @@ class Bitcoin extends Component {
             <header>
                 <nav className="fix-top">
                     <div className="row main-nav-1">
-                    <img src={logo} alt="logo" className="logo"/> 
-                   <ul className="main-nav">
+                       <img src={logo} alt="logo" className="logo"/> 
+                        <ul className="main-nav">
+                    
                         <li><a href="#trading">trading</a></li>
                         <li><a href="#wallet">wallet</a></li>
                         <li><a href="#coinnyCard">coinnyCard</a></li>

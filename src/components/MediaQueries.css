@@ -1,6 +1,13 @@
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
-
+    .section-one,
+    .section-two,
+    .section-three{
+        width: auto;
+    }
+.footer{
+    width: 100%;
+}
 
 }
 
@@ -58,7 +65,7 @@
 @media only screen and (max-width:480px){
 
     .main-nav-1{
-        width: 82.5%;
+      width: auto;
 }
     .main-nav li{
         margin-left: 20px;
