@@ -11,7 +11,7 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     line-height: 25px;
     text-rendering: optimizeLegibility;
-  
+    margin: 0 10px 0 10px;
    
 }
 .row{
@@ -21,9 +21,10 @@ body{
 }
 .main-nav-1{
     margin-top: -40px;
-   background-color:#c2c2a3;
+    background-color:#c2c2a3;
     position: fixed;
-    width: 100%;
+    margin-left: -20px;
+    
 }
 
 .logo{

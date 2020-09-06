@@ -1,10 +1,6 @@
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
-    .section-one,
-    .section-two,
-    .section-three{
-        width: auto;
-    }
+  
 .footer{
     width: 100%;
 }
