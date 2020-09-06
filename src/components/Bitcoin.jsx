@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './images/bitcoin-logo.png';
+import logo from './images/logo1.png';
 import image2 from './images/btcoin.png';
 import biticon from './images/bitcoin.png';
 import './Style.css';
