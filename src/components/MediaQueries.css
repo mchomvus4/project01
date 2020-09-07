@@ -16,6 +16,12 @@
         padding-right: 4px;
     }
     
+    .peer-to-peer,
+    .transactions,
+    .instant,
+    .withdraw-page{
+        font-size: 15px;
+}
      
 }
 
@@ -43,7 +49,9 @@
         font-size: 80%;
     }
     .transactions{
-        margin-left: 35px;
+    font-size: 15px;
+    margin-left: 35%;
+       
     }
     .withdraw{
         font-size: 80%;
@@ -52,7 +60,23 @@
         margin-top: 30px;
         font-size: 60%;
     }
-
+    .peer-to-peer{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .instant{
+        font-size:15px;
+    }
+    .withdraw-page{
+         font-size:15px;
+         margin-left: 42%;
+    }
+    .barline-01{
+        margin-left: 40px;
+    }
+    .barline-fraud{
+        margin-left: -130px;
+    }
 }
 
 
@@ -76,6 +100,23 @@
     }
     .logo{
         margin-top: 52px;
+    }
+     .transactions{
+        font-size: 15px;
+        margin-left: 60px;
+        padding-top: 10px;
+    }
+    .barline-fraud{
+        margin-left: -270px;
+    }
+    .number{
+        margin-left: 25px;
+    }
+    .withdraw-03{
+        margin-left: 25px;
+    }
+      .withdraw-page{
+         margin-left: 90px;
     }
 }
 
