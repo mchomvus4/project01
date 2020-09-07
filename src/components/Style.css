@@ -30,7 +30,7 @@ body{
 
 .logo{
     float: left;
-    width: 5%;
+    width: 4%;
     text-align: center;
     margin-top: 40px;
  
@@ -54,37 +54,28 @@ body{
     
 }
 
-.right-nav a:hover,
-.right-nav a:active{
-    border-bottom: 2px solid #e67e22;
-}
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
     padding-right: 50px;
-   
 }
-
 .main-nav li a:link,
 .main-nav li a:visited{
     color: #000;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 120%;
-   
 }
-
  .main-nav li{
       padding: 10px;
       text-align: center;
+      text-align: center;
     }
-
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
-
+    padding-bottom: 10px;
 }
-
 p.bitcoin{
     font-size: 40px;
     font-weight: bold;  
@@ -94,11 +85,10 @@ p.bitcoin{
     height: 100%;
     width: 100%;
 }
-
 .biticon{
     width: 50px;
     height: 50px;
-   margin-bottom: -10px;
+    margin-bottom: -10px;
 }
 
 .bitcoin-1{
@@ -114,6 +104,8 @@ p.bitcoin{
     margin-top: 50px;  
     text-align: center; 
     padding: 5px;
+    margin-bottom: 10px;
+    
 }
 .btn-1 a{
     text-decoration: none;
@@ -122,11 +114,8 @@ p.bitcoin{
 }
 .cost{
     float: right;
-   font-size: 15px;
-   font-weight: 100;
-   
-   
-    
+    font-size: 15px;
+    font-weight: 100;  
 }
 .cost-figure{
     margin-top: 20px;
@@ -136,6 +125,7 @@ p.bitcoin{
 .section-two-bitcoin{
     border-bottom: 2px solid #e67e22;
     width: 90px;
+    margin-left: 15%;
 }
 
 .fraud{
@@ -145,58 +135,67 @@ p.bitcoin{
     text-align: center;
     font-size: 20px;
 }
-.fraud-page1{
-    margin-top: 50px;
-}
+
 .fraud-page2{
     margin-top: 70px;
 }
 .transactions{
-    margin-left: 50px;
+    margin-left: 160px;
+    
+}
+.peer-to-peer{
+    margin-left: 70px;
+    
 }
 
 .section-two,
 .section-three{
     background-color: #eff5f5;
 }
-/* .section-one,
-.section-two,
-.section-three{
-    width: 100px;
-} */
 
 .footer{
     background-color: #555;
     color: #fff;
     text-align: center;
-    padding-bottom: 50px;
-
-    
+    padding-bottom: 50px; 
 }
 
 .footer-row{
     padding-top:50px;
     background-color: #555;
 }
-
-.withdraw{
-    margin-left: 50px;
-}
-
 .peer{
-    margin-left: 30px;
+    margin-left: 30px; 
+    margin-top: 60px;
 }
-
+.withdraw{
+    margin-top: 60px;
+}
 .peer-01{
     opacity: 0.3;
     margin-right: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 40px;
+    
+    
 }
-.barline-01{
-   border-left: 2px solid #e67e22;
-   height: 300px;
-  
+.number{
+    margin-right: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 40px;
+    margin-top: 20px;
 }
 
+.barline-01{
+   border-left: 2px solid #e67e22;
+   height: 700px;
+   margin-left: 90px; 
+   padding-bottom: 20px;
+   padding-top: 20px;
+  
+}
 .dismiss{
     background-color: #e67e22;
     border: none;
@@ -220,4 +219,31 @@ input{
 .withdraw-03{
     opacity: 0.3;
     margin-right: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 40px;
+}
+.feature{
+    margin-left: 15%;
+}
+
+.fraud-page1{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.instant{
+    margin-left: 50px;
+}
+.withdraw-page{
+    margin-left: 140px;
+
+}
+.barline-fraud{
+   border-left: 2px solid #fff;
+   margin-left: -150px;
+   padding-bottom: 60px;
+}
+.section-three{
+   padding-top: 30px;
 }

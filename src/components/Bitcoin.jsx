@@ -44,7 +44,7 @@ const isSearched = searchTerm => item =>
 class Bitcoin extends Component {
     constructor(props) {
         super(props)
-
+        
         this.state = {
             currency,
             searchTerm: '', 
@@ -65,11 +65,9 @@ class Bitcoin extends Component {
     };
 
 
-    render() {
+    render () {
+        const { currency, searchTerm } = this.state;//this is distructuring     
         return (
-
-         
-      
             <div>
                    
             <header>
@@ -112,11 +110,12 @@ class Bitcoin extends Component {
                             <form>
                                 <input
                                 type="text"
+                                value={searchTerm}
                                 onChange={this.onSearchChange}
                                 placeholder="Search Currency By Name"
                                 />
                             </form>
-                            {this.state.currency.filter(isSearched(this.state.searchTerm)).map(item =>
+                            {currency.filter(isSearched(searchTerm)).map(item =>
                                 <div key={item.id}>
                                     <table>
                                         <tbody>
@@ -149,7 +148,7 @@ class Bitcoin extends Component {
             <section className="section-two">
                 <div className="row">
                     <div className="col span-1-of-2">
-                        <p>Main features of </p><h2 className="section-two-bitcoin">BitCoin</h2>
+                        <p className="feature">Main features of </p><h2 className="section-two-bitcoin">BitCoin</h2>
                     </div>
                     <div className="col span-1-of-2 trading">
                      <p>People value it as a way of investments or making<br/> money trading it.Some specialists  value it more <br/>for its technological features and specifications.</p>
@@ -161,21 +160,26 @@ class Bitcoin extends Component {
 
             {/* beginning of section three */}
              <section className="section-three">
-        <div className="row">
+            <div className="row">
             <div className="col span-1-of-3">
-                <h2 className="peer"><span className="peer-01">01</span><span className="barline-01"></span>Peer-to-peer<br/><span className="transactions">transactions</span> </h2>  
+                            
+            <h2 className="peer"><span className="peer-01">01</span><span className="barline-01"></span><span className="peer-to-peer">Peer-to-peer</span><br/><span className="transactions">transactions</span> </h2>  
             </div>
 
             <div className="col span-1-of-3 fraud">
-                <p className="fraud-page1">02|Fraud protection</p><br/>
+                
+                <p className="number">02</p><span className="barline-fraud"></span><p className="fraud-page1">Fraud protection</p>
                 <p className="fraud-page2">HTTPS, 2FA(U2F, SMS/TEXT,<br/> email,Authy),IP, selected<br/> transaction confirmation</p>
             </div>
 
             <div className="col span-1-of-3">
-                <h2 className="withdraw"><span className="withdraw-03">03</span><span className="barline-01">Instant withdraw</span></h2>
+           
+            
+            <h2 className="withdraw"><span className="withdraw-03">03</span><span className="barline-01"></span><span className="instant">Instant<br/><span className="withdraw-page">withdraw</span></span></h2>
             </div>
-        </div>
-    </section>
+            </div>
+                      
+            </section>
             {/* end of the three section */}
 
 
