@@ -137,7 +137,7 @@ p.bitcoin{
 }
 
 .fraud-page2{
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .transactions{
     margin-left: 160px;
@@ -177,6 +177,7 @@ p.bitcoin{
     transform: rotate(-90deg);
     position: absolute;
     font-size: 40px;
+    margin-top: 15px;
     
     
 }
@@ -185,15 +186,15 @@ p.bitcoin{
     transform: rotate(-90deg);
     position: absolute;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .barline-01{
    border-left: 2px solid #e67e22;
    height: 700px;
    margin-left: 90px; 
-   padding-bottom: 20px;
-   padding-top: 20px;
+   padding-bottom: 40px;
+   padding-top: 10px;
   
 }
 .dismiss{
@@ -222,27 +223,33 @@ input{
     transform: rotate(-90deg);
     position: absolute;
     font-size: 40px;
+    margin-top: 15px;
 }
 .feature{
     margin-left: 15%;
 }
 
 .fraud-page1{
-    margin-top: -5px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 
 .instant{
     margin-left: 50px;
+   
 }
 .withdraw-page{
     margin-left: 140px;
+  
 
 }
 .barline-fraud{
    border-left: 2px solid #fff;
    margin-left: -150px;
-   padding-bottom: 60px;
+   padding-bottom: 90px;
+   opacity: 0.2;
+
+
 }
 .section-three{
    padding-top: 30px;
