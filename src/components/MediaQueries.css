@@ -62,10 +62,11 @@
     }
     .peer-to-peer{
         font-size: 15px;
-        margin-left: 20px;
+        margin-left: 5%;
     }
     .instant{
         font-size:15px;
+        margin-left: 5%;
     }
     .withdraw-page{
          font-size:15px;
@@ -118,15 +119,7 @@
       .withdraw-page{
          margin-left: 90px;
     }
-     .peer-to-peer{
-        font-size: 5px;
-        margin-left: 20px;
-    }
-     .transactions{
-    font-size: 5px;
-    margin-left: 35%;
-       
-    }
+   
 }
 
 

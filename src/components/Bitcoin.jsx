@@ -175,7 +175,7 @@ class Bitcoin extends Component {
             <div className="col span-1-of-3">
            
             
-            <h2 className="withdraw"><span className="withdraw-03">03</span><span className="barline-01"></span><span className="instant">Instant<br/><span className="withdraw-page">withdraw</span></span></h2>
+            <h2 className="withdraw"><span className="withdraw-03">03</span><span className="barline-02"></span><span className="instant">Instant<br/><span className="withdraw-page">withdraw</span></span></h2>
             </div>
             </div>
                       
