@@ -118,6 +118,15 @@
       .withdraw-page{
          margin-left: 90px;
     }
+     .peer-to-peer{
+        font-size: 5px;
+        margin-left: 20px;
+    }
+     .transactions{
+    font-size: 5px;
+    margin-left: 35%;
+       
+    }
 }
 
 
